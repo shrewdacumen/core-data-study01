@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 sungwook. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "NBAppDelegate.h"
 
-@implementation AppDelegate
+@implementation NBAppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;
@@ -16,10 +16,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //Storyboard will handle these for you!
+    
+    /*
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+     */
     return YES;
 }
 

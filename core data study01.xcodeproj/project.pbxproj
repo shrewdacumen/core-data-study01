@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092D0CA117E0E53400BE5094 /* EnlargedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092D0CA017E0E53400BE5094 /* EnlargedTableViewController.m */; };
+		09F4F1AC17E3247000C5AF4F /* libSWKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F4F1AB17E3247000C5AF4F /* libSWKit.a */; };
 		09F7908B17D893330048EE54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F7908A17D893330048EE54 /* Foundation.framework */; };
 		09F7908D17D893330048EE54 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F7908C17D893330048EE54 /* CoreGraphics.framework */; };
 		09F7908F17D893330048EE54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F7908E17D893330048EE54 /* UIKit.framework */; };
 		09F7909117D893330048EE54 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F7909017D893330048EE54 /* CoreData.framework */; };
 		09F7909717D893330048EE54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09F7909517D893330048EE54 /* InfoPlist.strings */; };
 		09F7909917D893330048EE54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F7909817D893330048EE54 /* main.m */; };
-		09F7909D17D893330048EE54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F7909C17D893330048EE54 /* AppDelegate.m */; };
+		09F7909D17D893330048EE54 /* NBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F7909C17D893330048EE54 /* NBAppDelegate.m */; };
 		09F790A017D893330048EE54 /* core_data_study01.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09F7909E17D893330048EE54 /* core_data_study01.xcdatamodeld */; };
 		09F790A217D893330048EE54 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F790A117D893330048EE54 /* Images.xcassets */; };
 		09F790A917D893330048EE54 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F790A817D893330048EE54 /* XCTest.framework */; };
@@ -22,6 +24,11 @@
 		09F790AC17D893330048EE54 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F7909017D893330048EE54 /* CoreData.framework */; };
 		09F790B417D893330048EE54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09F790B217D893330048EE54 /* InfoPlist.strings */; };
 		09F790B617D893330048EE54 /* core_data_study01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F790B517D893330048EE54 /* core_data_study01Tests.m */; };
+		09F790C017D8941E0048EE54 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F790BF17D8941E0048EE54 /* Storyboard.storyboard */; };
+		09FCCC9817DDC3C90054881F /* CarInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FCCC9717DDC3C90054881F /* CarInputViewController.m */; };
+		09FCCC9B17DDC3F50054881F /* CarListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FCCC9A17DDC3F50054881F /* CarListTableViewController.m */; };
+		09FCCC9E17DDC9550054881F /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FCCC9D17DDC9550054881F /* Car.m */; };
+		09FCCCA017DDDEAD0054881F /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 09FCCC9F17DDDEAD0054881F /* eye.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		092D0C9F17E0E53400BE5094 /* EnlargedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnlargedTableViewController.h; sourceTree = "<group>"; };
+		092D0CA017E0E53400BE5094 /* EnlargedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnlargedTableViewController.m; sourceTree = "<group>"; };
+		092D0CA217E0E8D400BE5094 /* CarListTableViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarListTableViewControllerDelegate.h; sourceTree = "<group>"; };
+		09F4F1AB17E3247000C5AF4F /* libSWKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSWKit.a; path = "../../../Users/sungwook/Library/Developer/Xcode/DerivedData/Networking_Workspace-gulrczxuthpihdbvwsyrwcxgthhc/Build/Products/Debug-iphoneos/libSWKit.a"; sourceTree = "<group>"; };
 		09F7908717D893330048EE54 /* core data study01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "core data study01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F7908A17D893330048EE54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		09F7908C17D893330048EE54 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,8 +55,8 @@
 		09F7909617D893330048EE54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		09F7909817D893330048EE54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09F7909A17D893330048EE54 /* core data study01-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "core data study01-Prefix.pch"; sourceTree = "<group>"; };
-		09F7909B17D893330048EE54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		09F7909C17D893330048EE54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09F7909B17D893330048EE54 /* NBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBAppDelegate.h; sourceTree = "<group>"; };
+		09F7909C17D893330048EE54 /* NBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBAppDelegate.m; sourceTree = "<group>"; };
 		09F7909F17D893330048EE54 /* core_data_study01.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = core_data_study01.xcdatamodel; sourceTree = "<group>"; };
 		09F790A117D893330048EE54 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		09F790A717D893330048EE54 /* core data study01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "core data study01Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +64,14 @@
 		09F790B117D893330048EE54 /* core data study01Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "core data study01Tests-Info.plist"; sourceTree = "<group>"; };
 		09F790B317D893330048EE54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		09F790B517D893330048EE54 /* core_data_study01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = core_data_study01Tests.m; sourceTree = "<group>"; };
+		09F790BF17D8941E0048EE54 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
+		09FCCC9617DDC3C90054881F /* CarInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarInputViewController.h; sourceTree = "<group>"; };
+		09FCCC9717DDC3C90054881F /* CarInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarInputViewController.m; sourceTree = "<group>"; };
+		09FCCC9917DDC3F50054881F /* CarListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarListTableViewController.h; sourceTree = "<group>"; };
+		09FCCC9A17DDC3F50054881F /* CarListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarListTableViewController.m; sourceTree = "<group>"; };
+		09FCCC9C17DDC9550054881F /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		09FCCC9D17DDC9550054881F /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		09FCCC9F17DDDEAD0054881F /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09F4F1AC17E3247000C5AF4F /* libSWKit.a in Frameworks */,
 				09F7908D17D893330048EE54 /* CoreGraphics.framework in Frameworks */,
 				09F7909117D893330048EE54 /* CoreData.framework in Frameworks */,
 				09F7908F17D893330048EE54 /* UIKit.framework in Frameworks */,
@@ -103,6 +123,7 @@
 		09F7908917D893330048EE54 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				09F4F1AB17E3247000C5AF4F /* libSWKit.a */,
 				09F7908A17D893330048EE54 /* Foundation.framework */,
 				09F7908C17D893330048EE54 /* CoreGraphics.framework */,
 				09F7908E17D893330048EE54 /* UIKit.framework */,
@@ -115,10 +136,21 @@
 		09F7909217D893330048EE54 /* core data study01 */ = {
 			isa = PBXGroup;
 			children = (
-				09F7909B17D893330048EE54 /* AppDelegate.h */,
-				09F7909C17D893330048EE54 /* AppDelegate.m */,
+				09F7909B17D893330048EE54 /* NBAppDelegate.h */,
+				09F7909C17D893330048EE54 /* NBAppDelegate.m */,
+				09F790BF17D8941E0048EE54 /* Storyboard.storyboard */,
+				092D0C9F17E0E53400BE5094 /* EnlargedTableViewController.h */,
+				092D0CA017E0E53400BE5094 /* EnlargedTableViewController.m */,
+				09FCCC9917DDC3F50054881F /* CarListTableViewController.h */,
+				09FCCC9A17DDC3F50054881F /* CarListTableViewController.m */,
+				092D0CA217E0E8D400BE5094 /* CarListTableViewControllerDelegate.h */,
+				09FCCC9617DDC3C90054881F /* CarInputViewController.h */,
+				09FCCC9717DDC3C90054881F /* CarInputViewController.m */,
 				09F790A117D893330048EE54 /* Images.xcassets */,
 				09F7909E17D893330048EE54 /* core_data_study01.xcdatamodeld */,
+				09FCCC9F17DDDEAD0054881F /* eye.png */,
+				09FCCC9C17DDC9550054881F /* Car.h */,
+				09FCCC9D17DDC9550054881F /* Car.m */,
 				09F7909317D893330048EE54 /* Supporting Files */,
 			);
 			path = "core data study01";
@@ -229,7 +261,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				09F7909717D893330048EE54 /* InfoPlist.strings in Resources */,
+				09FCCCA017DDDEAD0054881F /* eye.png in Resources */,
 				09F790A217D893330048EE54 /* Images.xcassets in Resources */,
+				09F790C017D8941E0048EE54 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09F7909D17D893330048EE54 /* AppDelegate.m in Sources */,
+				09FCCC9E17DDC9550054881F /* Car.m in Sources */,
+				09FCCC9817DDC3C90054881F /* CarInputViewController.m in Sources */,
+				092D0CA117E0E53400BE5094 /* EnlargedTableViewController.m in Sources */,
+				09FCCC9B17DDC3F50054881F /* CarListTableViewController.m in Sources */,
+				09F7909D17D893330048EE54 /* NBAppDelegate.m in Sources */,
 				09F7909917D893330048EE54 /* main.m in Sources */,
 				09F790A017D893330048EE54 /* core_data_study01.xcdatamodeld in Sources */,
 			);
@@ -368,7 +406,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "core data study01/core data study01-Prefix.pch";
 				INFOPLIST_FILE = "core data study01/core data study01-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Networking_Workspace-gulrczxuthpihdbvwsyrwcxgthhc/Build/Products/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -381,7 +424,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "core data study01/core data study01-Prefix.pch";
 				INFOPLIST_FILE = "core data study01/core data study01-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Networking_Workspace-gulrczxuthpihdbvwsyrwcxgthhc/Build/Products/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -445,6 +493,7 @@
 				09F790BB17D893330048EE54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09F790BC17D893330048EE54 /* Build configuration list for PBXNativeTarget "core data study01Tests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +502,7 @@
 				09F790BE17D893330048EE54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
